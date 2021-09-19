@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+body {
+    font-size: 16px;
+    font-family: 'Red Hat Display';
+    background-image: url('/Users/bjarne/Library/Mobile Documents/com~apple~CloudDocs/Documents/Programmieren/DevProject/order-summary-component-main/images/pattern-background-desktop.svg');
+    background-color: hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#mainbox {
+    transform: translateY(25%);
+    background-color: white;
+    width: 375px;
+    height: 38vw;
+    border-radius: 15px 15px 15px 15px;
+}
+
+#image{
+    width: 100%;
+    border-radius: 15px 15px 0px 0px;
+}
+
+body h1 {
+    text-align: center;
+    font-size: x-large;
+}
+
+#sub {
+    text-align: center;
+    font-size: small;
+    margin-left: 45px;
+    margin-right: 45px;
+    opacity: 0.5;
+}
+
+#subscription {
+    height: 100px;
+    height: 5vw;
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 8px 8px 8px 8px;
+    margin-top: 1vw;
+    margin-left: 25px;
+    margin-right: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+#music_button {
+    justify-self: flex-end;
+    margin-left: 1vw;
+    order: 1;
+}
+
+#text {
+    order: 2; 
+    margin-left: 1.5vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    order: 2;
+}
+
+#ap {
+    font-weight: bold;
+    margin-bottom: 0.4vw;
+}
+
+#price {
+    opacity: 0.5;
+    margin-top: 0vw;
+}
+
+#button {
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    font-size: small;
+    font-weight: bold;
+    justify-self: flex-end;
+    order: 3;
+    padding-left: 5.7vw;
+}
+
+#button:hover {
+    opacity: 0.5;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#Payment {
+    background-color:hsl(245, 75%, 52%);
+    margin: 2vw 25px 1vw 25px;
+    height: 3.3vw;
+    border-radius: 8px 8px 8px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 20px 20px 0px rgba(0, 0, 0, 0.2);
+}
+
+#Payment p {
+    font-weight: bold;
+    font-size: small;
+    color: white;
+}
+
+#Payment:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+#cancel {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: small;
+    opacity: 0.5;
+}
+
+#cancel:hover {
+    opacity: 1;
+    cursor: pointer;
+}
